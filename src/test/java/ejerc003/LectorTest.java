@@ -9,8 +9,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 
-import org.json.JSONObject;
-import org.json.XML;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -51,7 +49,7 @@ class LectorTest {
 		
 		try(BufferedWriter bw=new BufferedWriter(new PrintWriter(temp))) {
 		
-			bw.write(xml);
+			//bw.write(xml);
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
